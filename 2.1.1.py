@@ -11,6 +11,7 @@ inpt1 = ""
 ###mostrar qr###
 def display():
   #file no debe de ser un archivo svg ####
+  ##aun falta esta parte###
   pic = cv2.imread(file)
   cv2.imshow("Código Qr", pic)
   cv2.waitKey(0)
@@ -110,15 +111,3 @@ def decodificar():
   cv2.destroyAllWindows()
 
 mainView()
-
-#vigenere cipher
-#  encodedBytes = base64.b64decode(data.encode("utf-8"))
-#  Str = str(encodedBytes, "utf-8")
-#  print(Str)
-
-
-
-
-
-# Standard Base64 Encoding
-
